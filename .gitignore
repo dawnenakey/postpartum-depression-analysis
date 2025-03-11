@@ -1,1 +1,69 @@
-venv
+# Virtual Environment (exclude venv directory)
+venv/
+.env/
+
+# Python Bytecode Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Logs and Debug Files
+logs/
+*.log
+*.out
+*.err
+
+# Cache and Temp Files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store  # MacOS system files
+Thumbs.db   # Windows system files
+
+# Data Files (Large CSVs, Datasets, or Model Checkpoints)
+*.csv
+*.tsv
+*.json
+*.db
+*.sqlite
+*.h5
+*.hdf5
+*.pkl
+*.sav
+
+# Machine Learning Artifacts (Saved Models, TensorBoard Logs, etc.)
+models/
+checkpoints/
+*.joblib
+*.onnx
+*.tflite
+
+# Python Virtual Environment & Dependency Caches
+pip-log.txt
+pip-delete-this-directory.txt
+Pipfile.lock
+poetry.lock
+
+# IDE/Editor-Specific Files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.idea/
+*.iml
+
+# Docker & CI/CD 
+docker-compose.override.yml
+*.dockerignore
+.envrc
+
+# Compiled Libraries
+*.so
+*.dylib
+*.dll
+
+# Jupyter Notebook Output 
+*.ipynb_checkpoints
